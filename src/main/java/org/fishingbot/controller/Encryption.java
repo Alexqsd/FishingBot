@@ -1,6 +1,6 @@
-package controller;
+package org.fishingbot.controller;
 
-import model.Lang;
+import org.fishingbot.model.Lang;
 
 import java.io.*;
 

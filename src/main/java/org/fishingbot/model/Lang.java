@@ -1,4 +1,4 @@
-package model;
+package org.fishingbot.model;
 
 /** Storage class for output Strings. */
 public final class Lang

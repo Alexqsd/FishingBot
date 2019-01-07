@@ -1,4 +1,4 @@
-package model;
+package org.fishingbot.model;
 
 /**
  * Enum to represent the constants of the different lures in-game.
@@ -8,12 +8,12 @@ package model;
  */
 public enum LureType
 {
-    SHINY_BAUBLE(Lang.EN_ITEM_SHINY_BAUBLE, 10, "orb.png"),
-    NIGHTCRAWLERS(Lang.EN_ITEM_NIGHTCRAWLERS, 10, "worm.png"),
-    AQUADYNAMIC_FISH_LENS(Lang.EN_ITEM_AQUADYNAMIC_FISH_LENS, 10, "spyglass.png"),
-    BRIGHT_BAUBLES(Lang.EN_ITEM_BRIGHT_BAUBLES, 10, "gems.png"),
-    FLESH_EATING_WORM(Lang.EN_ITEM_FLESH_EATING_WORM, 10, "worm.png"),
-    AQUADYNAMIC_FISH_ATTRACTOR(Lang.EN_ITEM_AQUADYNAMIC_FISH_ATTRACTOR, 5, "lollipop.png");
+    SHINY_BAUBLE(Lang.EN_ITEM_SHINY_BAUBLE, 10, "images/orb.png"),
+    NIGHTCRAWLERS(Lang.EN_ITEM_NIGHTCRAWLERS, 10, "images/worm.png"),
+    AQUADYNAMIC_FISH_LENS(Lang.EN_ITEM_AQUADYNAMIC_FISH_LENS, 10, "images/spyglass.png"),
+    BRIGHT_BAUBLES(Lang.EN_ITEM_BRIGHT_BAUBLES, 10, "images/gems.png"),
+    FLESH_EATING_WORM(Lang.EN_ITEM_FLESH_EATING_WORM, 10, "images/worm.png"),
+    AQUADYNAMIC_FISH_ATTRACTOR(Lang.EN_ITEM_AQUADYNAMIC_FISH_ATTRACTOR, 5, "images/lollipop.png");
 
     private final String name, path;
     private final long duration;

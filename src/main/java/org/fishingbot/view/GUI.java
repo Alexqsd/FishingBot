@@ -1,7 +1,7 @@
-package view;
+package org.fishingbot.view;
 
-import controller.Controller;
-import controller.SaveData;
+import org.fishingbot.controller.Controller;
+import org.fishingbot.controller.SaveData;
 import javafx.application.Application;
 import javafx.beans.binding.Bindings;
 import javafx.beans.property.ObjectProperty;
@@ -20,8 +20,8 @@ import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
-import model.Lang;
-import model.LureType;
+import org.fishingbot.model.Lang;
+import org.fishingbot.model.LureType;
 
 import java.io.File;
 
@@ -37,7 +37,7 @@ public class GUI extends Application
         /* Convenience variables. */
         final int WINDOW_WIDTH = 475, WINDOW_HEIGHT = 550;
         final double CIRCLE_FRAME_RADIUS = 35.0;
-        final String STYLESHEET_PATH = "/Style.css";
+        final String STYLESHEET_PATH = "/css/Style.css";
 
         /* Nodes. */
         final Label lblConsole = new Label(Lang.EN_NODE_CONSOLE),
@@ -100,7 +100,7 @@ public class GUI extends Application
         final ObjectProperty<LureType> prpCurrentLure = new SimpleObjectProperty<>();
         for (final LureType i : LureType.values())
         {
-            final Image imgLure = new Image(ClassLoader.class.getResourceAsStream("/".concat(i.getPath())));
+            final Image imgLure = new Image(this.getClass().getClassLoader().getResourceAsStream(i.getPath()));
             final ImageView ivwLure = new ImageView(imgLure);
             ivwLure.setPreserveRatio(true);
             /* Scale the size of lures down depending on how many lures there are. */
@@ -196,7 +196,7 @@ public class GUI extends Application
         primaryStage.setOnCloseRequest(event -> SaveData.save(
                 new SaveData(sldDelay.valueProperty(), sldSensitivity.valueProperty(),
                         tgbOnTop.selectedProperty(), tgbDebug.selectedProperty())));
-        primaryStage.getIcons().add(new Image(new File("icon.png").toURI().toString()));
+        primaryStage.getIcons().add(new Image(new File("images/icon.png").toURI().toString()));
         primaryStage.setResizable(false);
         primaryStage.setTitle(Lang.EN_TITLE);
         primaryStage.setWidth(WINDOW_WIDTH);
@@ -206,7 +206,7 @@ public class GUI extends Application
     }
 
     /**
-     * Main method. Launch(args) searches for the method START in this class.
+     * org.fishingbot.Main method. Launch(args) searches for the method START in this class.
      * @param args from command line.
      */
     public static void main(String[] args)

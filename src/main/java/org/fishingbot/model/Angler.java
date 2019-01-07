@@ -1,10 +1,10 @@
-package model;
+package org.fishingbot.model;
 
-import controller.Controller;
+import org.fishingbot.controller.Controller;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.binding.ObjectBinding;
 import javafx.beans.property.*;
-import view.GUI;
+import org.fishingbot.view.GUI;
 
 import java.awt.*;
 import java.awt.event.InputEvent;

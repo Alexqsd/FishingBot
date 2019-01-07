@@ -1,4 +1,4 @@
-package controller;
+package org.fishingbot.controller;
 
 import javafx.application.Platform;
 import javafx.beans.binding.DoubleBinding;
@@ -6,9 +6,9 @@ import javafx.beans.binding.ObjectBinding;
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleBooleanProperty;
-import model.Angler;
-import model.Lang;
-import model.LureType;
+import org.fishingbot.model.Angler;
+import org.fishingbot.model.Lang;
+import org.fishingbot.model.LureType;
 
 import java.time.LocalTime;
 import java.time.ZonedDateTime;

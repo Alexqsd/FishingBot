@@ -1,4 +1,4 @@
-package view;
+package org.fishingbot.view;
 
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -16,8 +16,8 @@ import javafx.scene.text.Font;
 import javafx.scene.text.TextAlignment;
 import javafx.stage.StageStyle;
 import javafx.stage.Window;
-import model.Lang;
-import model.Tools;
+import org.fishingbot.model.Lang;
+import org.fishingbot.model.Tools;
 
 import java.awt.*;
 

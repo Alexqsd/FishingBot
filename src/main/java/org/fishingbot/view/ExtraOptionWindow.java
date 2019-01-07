@@ -1,4 +1,4 @@
-package view;
+package org.fishingbot.view;
 
 import javafx.geometry.HPos;
 import javafx.scene.Scene;
@@ -11,8 +11,8 @@ import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Modality;
 import javafx.stage.Window;
-import model.Lang;
-import model.Tools;
+import org.fishingbot.model.Lang;
+import org.fishingbot.model.Tools;
 
 /**
  * Project Name: FishingBot

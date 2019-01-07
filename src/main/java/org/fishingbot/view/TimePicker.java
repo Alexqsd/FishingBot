@@ -1,4 +1,4 @@
-package view;
+package org.fishingbot.view;
 
 import javafx.animation.AnimationTimer;
 import javafx.application.Platform;
@@ -16,7 +16,7 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 import javafx.util.StringConverter;
-import model.Tools;
+import org.fishingbot.model.Tools;
 
 import java.security.InvalidParameterException;
 import java.time.LocalTime;

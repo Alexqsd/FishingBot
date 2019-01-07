@@ -24,13 +24,13 @@ Circle
 
 #quest
 {
-    -fx-image: url(quest.gif);
+    -fx-image: url(/images/quest.gif);
     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
 }
 
 #mouse
 {
-    -fx-image: url(mouse.png);
+    -fx-image: url(/images/mouse.png);
     -fx-rotate: 30;
     -fx-opacity: 0.8;
 }

@@ -1,4 +1,4 @@
-package view;
+package org.fishingbot.view;
 
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;

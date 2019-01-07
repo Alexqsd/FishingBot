@@ -1,4 +1,4 @@
-package controller;
+package org.fishingbot.controller;
 
 /** Listener interface for String communication between classes. */
 public interface MessageListener

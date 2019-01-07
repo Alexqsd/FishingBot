@@ -1,9 +1,9 @@
-package controller;
+package org.fishingbot.controller;
 
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.DoubleProperty;
-import model.Angler;
-import model.Lang;
+import org.fishingbot.model.Angler;
+import org.fishingbot.model.Lang;
 
 import java.awt.*;
 import java.io.*;

@@ -1,11 +1,11 @@
-package view;
+package org.fishingbot.view;
 
 import javafx.event.Event;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.stage.Window;
-import model.Tools;
+import org.fishingbot.model.Tools;
 
 /**
  * Project Name: FishingBot

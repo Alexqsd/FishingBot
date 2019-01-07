@@ -1,6 +1,6 @@
-package model;
+package org.fishingbot.model;
 
-import controller.Controller;
+import org.fishingbot.controller.Controller;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 

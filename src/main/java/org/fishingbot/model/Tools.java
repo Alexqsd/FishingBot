@@ -1,6 +1,6 @@
-package model;
+package org.fishingbot.model;
 
-import controller.Controller;
+import org.fishingbot.controller.Controller;
 
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;
