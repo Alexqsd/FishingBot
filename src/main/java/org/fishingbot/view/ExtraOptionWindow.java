@@ -93,7 +93,7 @@ public final class ExtraOptionWindow extends ObtrusiveWindow
         });
 
         final Scene scene = new Scene(grdControls, WINDOW_WIDTH, WINDOW_HEIGHT);
-        scene.getStylesheets().add("extra.css");
+        scene.getStylesheets().add("/css/extra.css");
         scene.setFill(Color.TRANSPARENT);
         setScene(scene);
     }
